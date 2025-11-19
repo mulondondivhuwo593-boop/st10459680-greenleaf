@@ -1,0 +1,88 @@
+CHANGELOG — GreenLeaf Website  
+This changelog documents the full development history of the GreenLeaf Website POE Project.  
+Version numbers represent major updates, improvements, and fixes.
+
+
+
+ — Initial Website Setup
+- Created project structure and main pages (Home, About, Services, Gallery, Enquiry, Contact).
+- Added basic navigation and placeholder content.
+- Set up initial CSS file and linked pages.
+- Added sample images and basic layout structure.
+
+
+
+ — Layout & Styling Enhancements
+- Improved typography for headings, body text, and buttons.
+- Applied the GreenLeaf color scheme across all pages.
+- Updated layout spacing, margins, and padding for a polished design.
+- Adjusted responsive styling for mobile and tablet screens.
+
+
+
+ — Feedback Fixes (From Part 2 Review)
+- Corrected broken navigation links.
+- Reorganized CSS using consistent naming and grouping.
+- Improved image alt text to match accessibility guidelines.
+- Fixed overlapping elements on smaller screen sizes.
+- Updated inconsistent typography and spacing issues.
+
+
+
+ Folder Structure & Documentation
+- Reorganized project folder structure for clarity:
+  - `/assets/css/`
+  - `/assets/js/`
+  - `/assets/images/`
+- Removed unused files and images.
+- Updated README with correct descriptions and structure.
+- Fixed GitHub Pages live link issues.
+
+
+
+ JavaScript Features Added
+- Implemented accordion for FAQs.
+- Added interactive Tabs on Services page.
+- Added Modal popup for promotions/news.
+- Implemented Lightbox for Gallery page.
+- Added Search feature with real-time filtering.
+- Added dynamic content (live date, footer year auto-update).
+
+
+
+  Maps & Forms
+- Added Google Interactive Map on Contact page.
+- Implemented Enquiry Form with full JS validation:
+  - Name, email, phone, message validation
+  - User feedback messages
+- Built Contact Form with:
+  - JavaScript validation
+  - Email sending functionality (EmailJS / backend)
+
+
+
+ SEO Optimization
+- Added meta title tags for all pages.
+- Added meta descriptions and keywords.
+- Improved image filenames for SEO.
+- Added descriptive alt text for accessibility.
+
+
+
+ Final Documentation Updates
+- Updated README with:
+  - Full project description  
+  - Setup instructions  
+  - Browser support  
+  - Links (repo + live site)  
+  - References  
+- Completed CHANGELOG documentation.
+- Tested website on multiple devices.
+
+
+
+ Final Release
+- All pages validated and tested.
+- All JavaScript features tested.
+- GitHub and Live website links verified.
+- POE Project completed and ready for submission.

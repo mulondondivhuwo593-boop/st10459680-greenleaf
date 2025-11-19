@@ -1,0 +1,300 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f5fff5; /* light green background */
+  color: #333; /* default text color */
+}
+header {
+  background-color: #2e7d32; /* dark green */
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+header h1 {
+  font-size: 2rem;
+}
+nav {
+  background-color: #388e3c; /* medium green */
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 15px;
+  display: block;
+  transition: background 0.3s, color 0.3s;
+}
+nav ul li a:hover {
+  background-color: #1b5e20; /* hover dark green */
+  border-radius: 5px;
+}
+main {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+section {
+  margin-bottom: 30px;
+}
+section h2 {
+  color: #2e7d32;
+  margin-bottom: 10px;
+}
+section p, section li {
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+ul, ol {
+  margin-left: 20px;
+}
+button {
+  background-color: #388e3c;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+button:hover {
+  background-color: #1b5e20;
+}
+footer {
+  background-color: #2e7d32;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 20px;
+}
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  nav ul li {
+    margin: 5px 0;
+  }
+
+  main {
+    padding: 15px;
+    margin: 10px;
+  }
+
+  section h2 {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 768px) {
+  body {
+    font-size: 16px; /* slightly smaller text */
+  }
+
+  nav ul {
+    flex-direction: column; /* stack menu items vertically */
+  }
+
+  header, main, footer {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  header {
+    text-align: center;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+
+  nav li {
+    margin: 10px 0;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  .container, main {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+    padding: 5px;
+  }
+
+  header {
+    text-align: center;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+
+  nav li {
+    margin: 8px 0;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  .container, main {
+    padding: 5px;
+  }
+
+  button, .btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+  }
+  #veggies {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f0fff0; /* Light green background */
+  }
+  
+  .veggie-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+  }
+  
+  .veggie-item {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    width: 200px;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+  }
+  
+  .veggie-item img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .veggie-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .veggie-item p {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #2e8b57; /* Green color for prices */
+
+  } 
+  .veggies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    background-color: #e6f2e6; /* light green background */
+  }
+  
+  .veggies h2 {
+    width: 100%;
+    text-align: center;
+    color: #2e7d32; /* dark green heading */
+    margin-bottom: 20px;
+  }
+  
+  .veggie-item {
+    flex: 1 1 200px;
+    max-width: 250px;
+    text-align: center;
+    border: 1px solid #a5d6a7;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #f0fff0;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .veggie-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .veggie-item p {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #1b5e20;
+  }
+  .veggies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    background-color: #e6f2e6; /* light green background */
+  }
+  
+  .veggies h2 {
+    width: 100%;
+    text-align: center;
+    color: #2e7d32; /* dark green heading */
+    margin-bottom: 20px;
+  }
+  
+  .veggie-item {
+    flex: 1 1 200px;
+    max-width: 250px;
+    text-align: center;
+    border: 1px solid #a5d6a7;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #f0fff0;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .veggie-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .veggie-item p {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #1b5e20;
+  }
